@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react';
 import { getStockPrice, Price } from '../../api/stock-price';
-import { LabelValue } from '../common/LabelValue';
 import { Section } from '../common/Section';
 import { PriceHistory } from '../PriceHistory/PriceHistory';
+import { PriceCard } from './PriceCard';
 
 export function StockPrice({ ticker }: { ticker: string }) {
   const [isLoading, setIsLoading] = useState(true);
@@ -37,20 +37,4 @@ export function StockPrice({ ticker }: { ticker: string }) {
   );
 }
 
-export function PriceCard({ price, ticker }: PriceCardProps) {
-  return (
-    <div className="px-4 py-1 sm:w-full md:w-80">
-      <LabelValue label="Ticker" value={ticker} />
-      <LabelValue label="Open" value={price.open} />
-      <LabelValue label="Close" value={price.close} />
-      <LabelValue label="High" value={price.high} />
-      <LabelValue label="Low" value={price.low} />
-      <LabelValue label="Date" value={price.date} />
-    </div>
-  );
-}
 
-interface PriceCardProps {
-  price: Price;
-  ticker: string;
-}
