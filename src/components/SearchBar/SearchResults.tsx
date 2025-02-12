@@ -1,4 +1,5 @@
-import { getStocks } from '../../api/search';
+import { useEffect, useState } from 'react';
+import { getStocks, StockInfo } from '../../api/search';
 
 interface SearchResultsProps {
   searchText: string;
@@ -6,10 +7,16 @@ interface SearchResultsProps {
 }
 
 export function SearchResults({ searchText, onSelect }: SearchResultsProps) {
+  const [stockResults, setStockResults] = useState<StockInfo[]>([]);
+
+  useEffect(() => {
+    setStockResults(getStocks(searchText))
+  },[searchText])
+
   if (searchText.trim().length <= 1) {
     return <></>;
   }
-  const stockResults = getStocks(searchText);
+
   return (
     <ul className="mt-1 border-2 inset-x-0 overflow-y-auto z-50 max-h-96 rounded-md lg:rounded-lg">
       {stockResults.map((stock) => (
