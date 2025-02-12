@@ -11,32 +11,33 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
+    title: 'Declarative',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will
+        efficiently update and render just the right components when your data changes. <br /><br />
+        Declarative views make your code more predictable and easier to debug.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Component-Based',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Build encapsulated components that manage their own state, then compose them to make complex UIs.<br /><br />
+        Since component logic is written in JavaScript instead of templates, you can easily pass rich data through your app and keep state out of the DOM.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Learn Once, Write Anywhere',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+      We don’t make assumptions about the rest of your technology stack, so you can develop new features in React without rewriting existing code. <br /><br />
+      React can also render on the server using Node and power mobile apps using React Native.
       </>
     ),
   },
@@ -48,7 +49,7 @@ function Feature({title, Svg, description}: FeatureItem) {
       <div className="text--center">
         <Svg className={styles.featureSvg} role="img" />
       </div>
-      <div className="text--center padding-horiz--md">
+      <div className="text--left padding-horiz--md">
         <Heading as="h3">{title}</Heading>
         <p>{description}</p>
       </div>
