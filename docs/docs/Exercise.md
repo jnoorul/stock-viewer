@@ -7,8 +7,3 @@ sidebar_position: 4
 ## UI
 
 ![](./stock-price-viewer-ui.png)
-
-
-
-
-
