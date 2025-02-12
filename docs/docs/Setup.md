@@ -15,8 +15,8 @@ sidebar_position: 1
 ## Clone the Starter Repo and Run
 
 ```bash
-  - git clone 
-  - cd stock-viewer-starter
-  - npm i
-  - npm run dev
+  git clone https://github.com/jnoorul/stock-viewer-starter.git
+  cd stock-viewer-starter
+  npm i
+  npm run dev
 ```
