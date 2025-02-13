@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 1
 ---
 
 # How Browser Works
@@ -70,4 +70,3 @@ It then converts this layout into **pixels on the screen** in the **Painting pro
 - The browser performs **layout calculations** and **paints the UI** to display the final result.
 
 Understanding this process helps in optimizing web performance and debugging UI issues effectively! 🚀
-

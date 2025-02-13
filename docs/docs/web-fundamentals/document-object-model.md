@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 # Document Object Model (DOM)
@@ -14,6 +14,3 @@ The **Document Object Model (DOM)** is a programming interface for web documents
 - **Dynamic Updates**: You can modify, add, or remove elements dynamically using JavaScript via the DOM.
 
 ![DOM](./img/dom.png)
-
-
-
