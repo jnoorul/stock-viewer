@@ -6,6 +6,20 @@ sidebar_position: 1
 
 ![Browser Painting Flow](./img/how-browser-paints.png)
 
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Web Fundamentals</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Hello, Web!</h1>
+    <script src="script.js"></script>
+  </body>
+</html>
+```
+
 When you enter a URL in your browser and press **Enter**, several steps happen behind the scenes to load the webpage. Let's break it down:
 
 ## 1. DNS Resolution
@@ -47,20 +61,6 @@ JavaScript can manipulate the **DOM**, modify styles, or fetch additional data.
 The browser calculates the size and position of elements (**Layout process**).
 
 It then converts this layout into **pixels on the screen** in the **Painting process**.
-
-```html
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Web Fundamentals</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <h1>Hello, Web!</h1>
-    <script src="script.js"></script>
-  </body>
-</html>
-```
 
 ## Summary
 
