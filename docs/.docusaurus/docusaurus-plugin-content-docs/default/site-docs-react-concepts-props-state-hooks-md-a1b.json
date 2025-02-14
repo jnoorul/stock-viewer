@@ -1,0 +1,24 @@
+{
+  "id": "react-concepts/props-state-hooks",
+  "title": "Props, State, and Hooks",
+  "description": "React provides Props, State, and Hooks to manage data and UI updates efficiently. Understanding these concepts is essential for building interactive applications.",
+  "source": "@site/docs/react-concepts/props-state-hooks.md",
+  "sourceDirName": "react-concepts",
+  "slug": "/react-concepts/props-state-hooks",
+  "permalink": "/stock-viewer/docs/react-concepts/props-state-hooks",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-concepts/props-state-hooks.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Component-Based Architecture",
+    "permalink": "/stock-viewer/docs/react-concepts/componnent-based-architecture"
+  },
+  "next": {
+    "title": "Exercise - Stock Price Viewer",
+    "permalink": "/stock-viewer/docs/exercise"
+  }
+}

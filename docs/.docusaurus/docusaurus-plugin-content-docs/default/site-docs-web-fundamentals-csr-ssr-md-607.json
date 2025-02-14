@@ -1,0 +1,27 @@
+{
+  "id": "web-fundamentals/csr-ssr",
+  "title": "Client-side Rendering vs. Server-side Rendering",
+  "description": "When building web applications, rendering refers to how the HTML content is generated and delivered to the user. The two main approaches are Client-side Rendering (CSR) and Server-side Rendering (SSR).",
+  "source": "@site/docs/web-fundamentals/csr-ssr.md",
+  "sourceDirName": "web-fundamentals",
+  "slug": "/web-fundamentals/csr-ssr",
+  "permalink": "/stock-viewer/docs/web-fundamentals/csr-ssr",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/web-fundamentals/csr-ssr.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "CSS Box Model",
+    "permalink": "/stock-viewer/docs/web-fundamentals/css-box-model"
+  },
+  "next": {
+    "title": "React Concepts",
+    "permalink": "/stock-viewer/docs/category/react-concepts"
+  }
+}

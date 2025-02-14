@@ -1,0 +1,27 @@
+{
+  "id": "react-concepts/componnent-based-architecture",
+  "title": "Component-Based Architecture",
+  "description": "What is Component-Based Architecture?",
+  "source": "@site/docs/react-concepts/componnent-based-architecture.md",
+  "sourceDirName": "react-concepts",
+  "slug": "/react-concepts/componnent-based-architecture",
+  "permalink": "/stock-viewer/docs/react-concepts/componnent-based-architecture",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/react-concepts/componnent-based-architecture.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Virtual DOM",
+    "permalink": "/stock-viewer/docs/react-concepts/virtual-dom"
+  },
+  "next": {
+    "title": "Props, State, and Hooks",
+    "permalink": "/stock-viewer/docs/react-concepts/props-state-hooks"
+  }
+}

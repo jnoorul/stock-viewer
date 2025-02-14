@@ -1,0 +1,23 @@
+{
+  "id": "setup",
+  "title": "Setup Instructions",
+  "description": "What you'll need",
+  "source": "@site/docs/setup.md",
+  "sourceDirName": ".",
+  "slug": "/setup",
+  "permalink": "/stock-viewer/docs/setup",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/setup.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Web Fundamentals",
+    "permalink": "/stock-viewer/docs/category/web-fundamentals"
+  }
+}

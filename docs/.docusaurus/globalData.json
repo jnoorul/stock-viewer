@@ -1,0 +1,93 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/stock-viewer/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/stock-viewer/docs",
+          "mainDocId": "setup",
+          "docs": [
+            {
+              "id": "exercise",
+              "path": "/stock-viewer/docs/exercise",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "feedback",
+              "path": "/stock-viewer/docs/feedback",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "react-concepts/componnent-based-architecture",
+              "path": "/stock-viewer/docs/react-concepts/componnent-based-architecture",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "react-concepts/props-state-hooks",
+              "path": "/stock-viewer/docs/react-concepts/props-state-hooks",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "react-concepts/virtual-dom",
+              "path": "/stock-viewer/docs/react-concepts/virtual-dom",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "react-concepts/why-react",
+              "path": "/stock-viewer/docs/react-concepts/why-react",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "setup",
+              "path": "/stock-viewer/docs/setup",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "web-fundamentals/csr-ssr",
+              "path": "/stock-viewer/docs/web-fundamentals/csr-ssr",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "web-fundamentals/css-box-model",
+              "path": "/stock-viewer/docs/web-fundamentals/css-box-model",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "web-fundamentals/document-object-model",
+              "path": "/stock-viewer/docs/web-fundamentals/document-object-model",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "web-fundamentals/how-browser-works",
+              "path": "/stock-viewer/docs/web-fundamentals/how-browser-works",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/web-fundamentals",
+              "path": "/stock-viewer/docs/category/web-fundamentals",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/react-concepts",
+              "path": "/stock-viewer/docs/category/react-concepts",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/stock-viewer/docs/setup",
+                "label": "setup"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

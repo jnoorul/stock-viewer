@@ -1,0 +1,27 @@
+{
+  "id": "web-fundamentals/how-browser-works",
+  "title": "How Browser Works",
+  "description": "Browser Painting Flow",
+  "source": "@site/docs/web-fundamentals/how-browser-works.md",
+  "sourceDirName": "web-fundamentals",
+  "slug": "/web-fundamentals/how-browser-works",
+  "permalink": "/stock-viewer/docs/web-fundamentals/how-browser-works",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/web-fundamentals/how-browser-works.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Web Fundamentals",
+    "permalink": "/stock-viewer/docs/category/web-fundamentals"
+  },
+  "next": {
+    "title": "Document Object Model (DOM)",
+    "permalink": "/stock-viewer/docs/web-fundamentals/document-object-model"
+  }
+}

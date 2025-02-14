@@ -1,0 +1,27 @@
+{
+  "id": "web-fundamentals/css-box-model",
+  "title": "CSS Box Model",
+  "description": "CSS Box Model",
+  "source": "@site/docs/web-fundamentals/css-box-model.md",
+  "sourceDirName": "web-fundamentals",
+  "slug": "/web-fundamentals/css-box-model",
+  "permalink": "/stock-viewer/docs/web-fundamentals/css-box-model",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/web-fundamentals/css-box-model.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Document Object Model (DOM)",
+    "permalink": "/stock-viewer/docs/web-fundamentals/document-object-model"
+  },
+  "next": {
+    "title": "Client-side Rendering vs. Server-side Rendering",
+    "permalink": "/stock-viewer/docs/web-fundamentals/csr-ssr"
+  }
+}
