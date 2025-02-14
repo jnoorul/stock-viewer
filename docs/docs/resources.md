@@ -1,8 +1,8 @@
 ---
-sidebar_position: 5
+sidebar_position: 6
 ---
 
-# Further Reading:
+# Further Reading
 
 Congratulations on completing the **Introduction to React** training! 🎉  
 Now that you understand the basics, here are some **intermediate-level concepts** to explore for building more advanced React applications.

@@ -2,6 +2,6 @@
 sidebar_position: 5
 ---
 
-# Feedback please
+# Feedback
 
 ![alt text](mentimeter_qr_code.png)
