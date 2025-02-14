@@ -2,7 +2,7 @@
 sidebar_position: 5
 ---
 
-# Further Reading: Advancing Your React Skills  
+# Further Reading:
 
 Congratulations on completing the **Introduction to React** training! 🎉  
 Now that you understand the basics, here are some **intermediate-level concepts** to explore for building more advanced React applications.
@@ -38,7 +38,6 @@ Now that you understand the basics, here are some **intermediate-level concepts*
 ## 5️⃣ **Next.js: The React Framework**
 - **Next.js**: A powerful React framework for building Server Side Rendered apps.  
   📖 [Official Docs](https://nextjs.org/docs)  
-  📖 [Next.js for Beginners](https://www.freecodecamp.org/news/the-next-js-handbook/)  
 
 ---
 
